@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Abdurakhmon Rashidov">
-    <link rel="short icon" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha512-t38vG/f94E72wz6pCsuuhcOPJlHKwPy+PY+n1+tJFzdte3hsIgYE7iEpgg/StngunGszVMrRfvwZinrza0vMTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
@@ -14,16 +15,99 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-info">
-        <div class="container">
-            <a class="navbar-brand pl-5" href="#">
-                <img src="img/icon.png" class="logo" width="50" height="auto" alt="">
-            </a>
-        </div>
-    </nav>
+    <div id="fullpage">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
-    <script src="js/app.js"></script>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="toRight">
+                            <h1>Что такое <br> <span id="app"></span></h1>
+                            <p>Понятиям UX и UI уже около 70 лет, но некоторые дизайнеры всё ещё путают их. Рассказываем, что означают аббревиатуры и как освоить эти профессии.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="toRight">
+                            <img onmouseover="scale()" src="img/1.svg" class="responsive-img" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <img onmouseover="scale()" src="img/2.svg" class="left responsive-img" alt="">
+                        </div>
+
+                    </div>
+                    <!-- <div class="col s12 m1"></div> -->
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <h1>Что такое UX-дизайн</h1>
+                            <p>UX (англ. user experience) дословно означает «опыт пользователя». В более широком смысле это понятие про весь опыт, который получает пользователь при взаимодействии с сайтом или приложением.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <h1>Что такое UI-дизайн</h1>
+                            <p>UI (англ. user interface) переводится как «пользовательский интерфейс». И необязательно только графический: тактильный, голосовой или звуковой. Мы рассмотрим только графический интерфейс, так как дизайнеры в основном работают
+                                с ним.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 offset-s1">
+                        <div class="toLeft">
+                            <img onmouseover="scale()" src="img/3.svg" class="left responsive-img" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 offset-s1">
+                        <div class="toLeft">
+                            <img onmouseover="scale()" src="img/2.svg" class="left responsive-img" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <h1>Требования к качественному UX/UI-дизайну
+                            </h1>
+                            <p>UI (англ. user interface) переводится как «пользовательский интерфейс». И необязательно только графический: тактильный, голосовой или звуковой. Мы рассмотрим только графический интерфейс, так как дизайнеры в основном работают
+                                с ним.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.18.2/core.js" integrity="sha512-kvRAEzU74MiFnY9BeeLz99N4jCgf6RpN3zNAkwzqysueZQtTbFSyBrfghW+2DLEOs6YiIq+6tKtNi6PyZvAhfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
+        <script src="js/app.js"></script>
 </body>
 
 </html>
