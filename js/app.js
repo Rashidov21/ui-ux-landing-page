@@ -32,7 +32,8 @@ function scale() {
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
-    loop: true
+    loop: true,
+    cursor: "_"
 });
 
 typewriter.typeString('Веб-дизайн')
